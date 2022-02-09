@@ -19,4 +19,5 @@ func main() {
 	side := coin[rand.Intn(len(coin))]
 
 	fmt.Println("The coin side turned out to be:", side)
+	//Pretend this works in the playground
 }
