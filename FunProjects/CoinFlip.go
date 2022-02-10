@@ -19,5 +19,5 @@ func main() {
 	side := coin[rand.Intn(len(coin))]
 
 	fmt.Printf("side: %s\n", side)
-	//Pretend this works in the playgroung
+	//Pretend this works in the playground
 }
