@@ -18,7 +18,7 @@ func main() {
 		If the given value is less than 0, print the first conditional. If it is less than 10, print the second conditional.
 		If the other two statements were unfulfilled, print the very last conditional.
 	*/
-	if num := 9; num < 0 {
+	if num := 33; num < 0 {
 		fmt.Println(num, "is negative")
 	} else if num < 10 {
 		fmt.Println(num, "has 1 digit")
