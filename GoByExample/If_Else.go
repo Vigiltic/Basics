@@ -16,7 +16,7 @@ func main() {
 	//A statement can precede conditionals; any variables declared in this statement are available in all branches.
 	/*
 		If the given value is less than 0, print the first conditional. If it is less than 10, print the second conditional.
-		If the other two statements were unfulfilled, print the last conditional.
+		If the other two statements were unfulfilled, print the very last conditional.
 	*/
 	if num := 9; num < 0 {
 		fmt.Println(num, "is negative")
